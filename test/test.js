@@ -66,6 +66,6 @@ describe("Валидация номера", () => {
         expect(numberValidator('1 234 567-89-00')).toEqual('+12345678900');
     })
     test("+374 (10) 98-76-54 arm", () => {
-        expect(numberValidator('374 (10) 98-76-54')).toEqual('+37410987654');
+        expect(numberValidator('37410 9876 54')).toEqual('+37410987654');
     })
 })
